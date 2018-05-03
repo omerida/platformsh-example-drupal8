@@ -52,7 +52,7 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]        
+        ]
     },
     "extra": {
         "installer-paths": {
