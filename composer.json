@@ -52,7 +52,7 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
+        ]        
     },
     "extra": {
         "installer-paths": {
@@ -67,6 +67,9 @@
             ],
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
